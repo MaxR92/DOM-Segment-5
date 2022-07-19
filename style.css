@@ -64,3 +64,22 @@ button {
     justify-content: center;
     align-items: center;
 }
+
+.niete {
+    
+}
+
+.gewinn {
+    animation: alternate;
+    animation-name: gewinn;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes gewinn {
+    0% {color: #AA771C;}
+    25% {color: #B38728;}
+    50% {color: #BF953F;}
+    75% {color: #ffe77e;}
+    100% {color: #ffdb64;}
+}
