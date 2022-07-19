@@ -40,6 +40,7 @@ button {
     border: #BF953F 2px solid;
     font-size: 1.5rem;
     background-color: #fcf6ba10;
+    cursor: pointer;
 }
 
 #kontostand {
@@ -90,7 +91,7 @@ button {
 
 .green {
     animation-name: green;
-    animation-duration: 1s;
+    animation-duration: 0.8s;
     animation-iteration-count: 1;
 }
 
@@ -102,6 +103,38 @@ button {
 
 .red {
     animation-name: Reed;
-    animation-duration: 1s;
+    animation-duration: 0.8s;
     animation-iteration-count: 1;
+}
+
+.zahlung {
+    background-color: #fcf6ba34;
+    display: flex;
+    position: absolute;
+    left: 1rem;
+    padding: 1rem;
+    flex-direction: column;
+    align-items: center;
+}
+
+.einsatz {
+    background-color: #fcf6ba34;
+    display: flex;
+    position: absolute;
+    right: 1rem;
+    padding: 1rem;
+    flex-direction: column;
+    align-items: center;
+}
+
+#aktuell {
+    width: 8vw;
+    height: 2rem;
+    margin: 1rem;
+    background: none;
+    color: #ffe8b9;
+    border: #ffffff 2px solid;
+    font-size: 1.5rem;
+    background-color: #fcf6ba10;
+    cursor: pointer;
 }
